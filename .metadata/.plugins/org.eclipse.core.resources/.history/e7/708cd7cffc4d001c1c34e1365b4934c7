@@ -1,0 +1,37 @@
+package test;
+
+public class CompteEpargne {
+	
+	private int solde;
+	private double tauxInt = 1.3;
+	 
+	 
+	 /*******   CONSTRUCTEUR   ******/
+	 
+	  
+	public CompteEpargne(int initialisation) {
+		solde = initialisation + (tauxInt);
+	}
+	
+	/******* METHODE ********/
+	
+	public void deposit(int depot) {
+		solde = depot + solde;
+		System.out.println("Vous venez de faire un depôt de " + depot + "€. Votre nouveau solde est donc de " + solde + "€.");
+	}
+	
+	public void withdraw(int retrait) {
+		
+		if( (solde-retrait) <= 0 ) {
+			System.out.println("Vous n'êtes pas autorisé à retirer sur ce compte.");
+		} else {
+			solde = solde - retrait;
+			System.out.println("Vous venez de faire un retrait de " + retrait + "€. Votre nouveau solde est donc de " + solde + "€.");
+		}		
+	}
+	  
+	 
+	
+	
+
+}

@@ -1,0 +1,20 @@
+package test;
+
+public class CompteEpargne {
+	
+	private int solde;
+	private int tauxInt = 0.3;
+	 
+	 
+	 /*******   CONSTRUCTEUR   ******/
+	 
+	  
+	public CompteEpargne(int initialisation) {
+		solde = initialisation;
+	}
+	  
+	 
+	
+	
+
+}

@@ -1,0 +1,20 @@
+package test;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		 CompteEpargne solde = new CompteEpargne(500);
+		 
+		 solde.deposit(20);
+		 
+		 
+		 solde.withdraw(1050);
+		 
+
+		 System.out.println(solde);
+			
+	
+	}
+}

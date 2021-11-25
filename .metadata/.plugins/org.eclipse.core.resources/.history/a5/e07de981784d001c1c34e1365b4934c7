@@ -1,0 +1,17 @@
+package GravenTuto;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int note1 = 17;
+		int note2 = 20;
+		int note3 = 13;
+		
+		double moyenne = (note1 + note2 + note3) / 3;
+		
+		System.out.println(moyenne);
+		
+		
+	}
+}

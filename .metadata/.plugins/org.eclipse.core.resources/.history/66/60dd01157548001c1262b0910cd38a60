@@ -1,0 +1,10 @@
+package Immeuble;
+
+public class CreationImmeuble {
+
+	public static void main(String[] args) {
+		Immeuble im = new Immeuble (7, 7);
+		im.display();
+	}
+
+}

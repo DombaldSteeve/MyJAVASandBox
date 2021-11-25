@@ -1,0 +1,33 @@
+package test;
+
+public class Compte extends CompteBancaire  {
+	
+	 protected double solde;
+	 
+	 
+	 /*******   CONSTRUCTEUR   ******/
+	 
+	 public Compte(double solde) {
+		 	super();
+			this.solde = solde;
+	}
+	 
+	 
+	 
+	 /******* METHODE ********/
+		
+	 public void deposit(int depot) {
+			solde = depot + solde;
+			System.out.println("Vous venez de faire un depôt de " + depot + "€. Votre nouveau solde est donc de " + solde + "€.");
+		}
+	
+
+	 public void affiche() {
+		 System.out.println(toString);
+	 }
+	 
+	 public String toString() {
+		return "Votre solde est de " + solde + "€ et votre autorisation de découvert est de " + autorisation + "€.";
+	}
+	 
+}

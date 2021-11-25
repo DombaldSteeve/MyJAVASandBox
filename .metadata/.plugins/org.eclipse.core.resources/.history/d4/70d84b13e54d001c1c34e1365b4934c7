@@ -1,0 +1,9 @@
+package test;
+
+public class Personne {
+	
+	private String prenom;
+	private String nom;
+	private int anneeNaissance;
+	
+}

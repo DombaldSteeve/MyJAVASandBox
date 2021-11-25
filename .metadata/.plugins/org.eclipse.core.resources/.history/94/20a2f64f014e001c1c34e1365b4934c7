@@ -1,0 +1,14 @@
+package test;
+
+public class Compte {
+	
+	 private int solde;
+	 
+	 
+	 
+	 public Compte(int initialisation) {
+			solde = initialisation;
+		}
+	
+
+}

@@ -1,0 +1,24 @@
+package test;
+
+public class Compte {
+	
+	 private int solde;
+	 
+	 
+	 /*******   CONSTRUCTEUR   ******/
+	 
+	 public Compte(int initialisation) {
+			solde = initialisation;
+		}
+	 
+	 
+	 
+	 /******* METHODE ********/
+		
+	 public void deposit(int depot) {
+			solde = depot + solde;
+			System.out.println("Vous venez de faire un depôt de " + depot + "€. Votre nouveau solde est donc de " + solde + "€.");
+		}
+	
+
+}

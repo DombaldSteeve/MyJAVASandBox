@@ -1,0 +1,21 @@
+package GravenTuto;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int age = 11;
+		
+		switch(age){
+		case 10:
+			System.out.println("la personne à 10ans");
+			break;
+		case 11:
+			System.out.println("la personne à 11ans");
+			break;
+			
+		default: System.out.println("cette personne c'est ok");
+			
+		}
+	}
+}

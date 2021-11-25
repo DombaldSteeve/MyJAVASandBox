@@ -1,0 +1,13 @@
+package test;
+
+public class CompteBancaire {
+
+	private int solde = 500;
+	private int autorisation = -500;
+	
+	private void nouveauSolde() {
+		System.out.println("Votre nouveau solde est de " + solde + " et votre autorisation de découvert est de " + autorisation + ".");
+	}
+	
+	
+}

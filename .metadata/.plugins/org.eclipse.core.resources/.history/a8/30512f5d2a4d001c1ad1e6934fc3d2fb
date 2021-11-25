@@ -1,0 +1,30 @@
+package Person;
+
+public class Person {
+	
+	String prenom;
+	String nom;
+	int age;
+	
+	
+	public void grandir() {
+		int age= 10;
+		age++;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

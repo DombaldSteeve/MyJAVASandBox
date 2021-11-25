@@ -1,0 +1,14 @@
+package GravenTuto;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int note1 = 10;
+		int note2 = 20;
+		int note3 = 15;
+		
+		int moyenne = (note1 + note2 + note3)/3;
+		
+		
+	}

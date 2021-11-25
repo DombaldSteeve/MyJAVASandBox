@@ -1,0 +1,27 @@
+package Person;
+
+public class Person {
+	
+	String prenom;
+	String nom;
+	int age;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		age = 10;
+		
+
+	}
+
+}

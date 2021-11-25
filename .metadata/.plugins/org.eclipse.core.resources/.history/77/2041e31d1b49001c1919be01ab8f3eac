@@ -1,0 +1,9 @@
+package TP14;
+
+public class Figure {
+	public void affiche() {
+		System.out.println(this);
+	}
+	public abstract String toString();
+}
+}
