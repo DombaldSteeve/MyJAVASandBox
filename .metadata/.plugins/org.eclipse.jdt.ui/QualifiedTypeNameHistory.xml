@@ -2,4 +2,9 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.nio.file.ClosedFileSystemException"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="test.CompteBancaire"/>
+    <fullyQualifiedTypeName name="test.CompteEpargne"/>
+    <fullyQualifiedTypeName name="Vehicule.Voiture"/>
+    <fullyQualifiedTypeName name="Vehicule.Camion"/>
+    <fullyQualifiedTypeName name="Vehicule.Cabriolet"/>
 </qualifiedTypeNameHistroy>
