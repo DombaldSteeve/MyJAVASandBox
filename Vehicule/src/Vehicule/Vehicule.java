@@ -2,9 +2,9 @@ package Vehicule;
 
 public abstract class Vehicule {
 	
-	
-	protected Passager[] passagers = new Passager[10]; 
-	
+	// tableau de passagers pour une instance véhicule
+	protected Passager[] passagers; 
+	protected static final int NB_PLACES = 5;
 	
 	protected static int NB_ROUES = 4;
 
@@ -22,14 +22,15 @@ public abstract class Vehicule {
 	
 	
 		public Vehicule(String marque, String modele, int prix) {
-			this(marque,modele, prix, Vehicule.recupererNbRoues());
+			this(marque,modele, prix, Vehicule.recupererNbRoues(), NB_PLACES);
 		}
-		public Vehicule(String marque, String modele, int prix, int nbRoues) {
+		public Vehicule(String marque, String modele, int prix, int nbRoues, int nbPlaces) {
 			super();
 			this.marque = marque;
 			this.modele = modele;
 			this.prix = prix;
 			this.nbRoues = nbRoues;
+			this.passagers = new Passager[nbPlaces];
 		}
 
 
@@ -68,6 +69,7 @@ public abstract class Vehicule {
 			return marque + " " + modele + " " + prix + "€.";
 		}
 		
+		
 		protected void ajouterPassager(Passager passager) {
 			for(int i = 0; i < passagers.length; i++) {
 				if( passagers[i] == null) {
@@ -77,6 +79,11 @@ public abstract class Vehicule {
 			}
 		}
 		
+		protected void ajouterPassager(Passager[] autrePassagers) {
+			for (int i = 0; i < autrePassagers.length; i++) {
+				ajouterPassager(autrePassagers[i]);
+			}
+		}
 		
 		public String afficherPassagers() {
 			String sReturn = "";

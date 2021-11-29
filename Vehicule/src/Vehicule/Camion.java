@@ -7,9 +7,12 @@ public class Camion extends Vehicule {
 	protected int NB_ROUES_CAMION = 6;
 	
 	
-	public Camion(String marque, String modele, int prix, Double poidsMaximumRoulant) {
+	public Camion(String marque, String modele, int prix, Double poidsMaximumRoulant) throws MarqueInvalideException {
 		super(marque, modele, prix);
 		this.poidsMaximumRoulant = poidsMaximumRoulant;
+		if(!marque.equals("Volvo")) {
+			throw new MarqueInvalideException("Seul des camions de marque Volvo peuvent être créés !");
+		}
 	}
 
 

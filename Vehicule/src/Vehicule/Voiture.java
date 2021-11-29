@@ -3,14 +3,19 @@ package Vehicule;
 public class Voiture extends Vehicule {
 
 	private int nombreDePlaces;
+	private static final int NB_ROUES = 4;
+	protected static final int NB_PLACES = 4;
 	
 	
+	public Voiture(String marque, String modele, int prix) {
+		//super(marque, modele, prix, NB_ROUES, NB_PLACES);
+		this(marque, modele, prix, NB_PLACES);
+	}
 	public Voiture(String marque, String modele, int prix, int nombreDePlaces) {
-		super(marque, modele, prix);
+		super(marque, modele, prix, NB_ROUES, nombreDePlaces);
 		this.nombreDePlaces = nombreDePlaces;
 		
 	}
-	
 	
 	public int getNbrDePlaces() {
 		return nombreDePlaces;
