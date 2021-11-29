@@ -42,6 +42,10 @@ public class MainVehicule {
 		
 		cbl.afficher();
 		cbl.freiner();
+		cbl.accelerer();
+		cbl.accelerer();
+		cbl.accelerer();
+		cbl.ralentir();
 		
 	}
 

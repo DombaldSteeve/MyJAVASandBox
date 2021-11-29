@@ -1,6 +1,8 @@
 package Vehicule;
 
-public abstract class Vehicule {
+public abstract class Vehicule implements BoiteVitesse {
+	
+	protected Integer vitesseEnclenchee = 0;
 	
 	// tableau de passagers pour une instance véhicule
 	protected Passager[] passagers; 
@@ -92,6 +94,31 @@ public abstract class Vehicule {
 					sReturn += passagers[i];
 				}
 			}return sReturn;
+		}
+		
+		public void passerVitesse() {
+			if(vitesseEnclenchee < 6) {
+				vitesseEnclenchee++;
+				System.out.println("Rapport supérieur passé ! "+ getMarque() + " " + getModele() + " est au rapport n° " + vitesseEnclenchee);
+			} return;
+		}
+		
+		public void retrograder() {
+			if(vitesseEnclenchee >= 6) {
+				vitesseEnclenchee--;
+				System.out.println("Rapport inférieur passé ! "+ getMarque() + " " + getModele() + " est au rapport n° " + vitesseEnclenchee);
+			} else {
+				vitesseEnclenchee--;
+				System.out.println("Rapport inférieur passé ! "+ getMarque() + " " + getModele() + " est au rapport n° " + vitesseEnclenchee);
+			}
+		}
+		
+		public void accelerer() {
+			passerVitesse();
+		}
+		
+		public void ralentir() {
+			retrograder();
 		}
 				
 }

@@ -1,6 +1,8 @@
 package Vehicule;
 
 public interface BoiteVitesse {
+	
+
 
 	
 	/*****      METHODE     *****/
