@@ -7,4 +7,19 @@
     <fullyQualifiedTypeName name="Vehicule.Voiture"/>
     <fullyQualifiedTypeName name="Vehicule.Camion"/>
     <fullyQualifiedTypeName name="Vehicule.Cabriolet"/>
+    <fullyQualifiedTypeName name="Interfaces.iBateau"/>
+    <fullyQualifiedTypeName name="Classes.Voilier"/>
+    <fullyQualifiedTypeName name="Classes.Hydravion"/>
+    <fullyQualifiedTypeName name="Interfaces.iAvion"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="Interfaces.iOperation"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="Classes.CompteCourant"/>
+    <fullyQualifiedTypeName name="java.nio.MappedByteBuffer"/>
+    <fullyQualifiedTypeName name="Classes.Avion"/>
+    <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
