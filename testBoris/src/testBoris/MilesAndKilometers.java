@@ -20,6 +20,8 @@ public class MilesAndKilometers {
 		
 		double kilometers = miles + convertisseurKm;
 		System.out.println("Pour " + miles + " Miles ," + " la valeur en kilomètres est de " + kilometers + " Km ");
+	
+		input.close();
 	}
 
 }
