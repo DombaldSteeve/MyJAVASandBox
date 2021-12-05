@@ -1660,3 +1660,320 @@
 2021-12-02 12:24:31,657 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
 2021-12-02 12:24:31,659 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
 2021-12-02 12:24:31,659 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:01:07,184 [Worker-97: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: devinstitut:java-java8:1.0-SNAPSHOT @ C:\Users\steev\eclipse-workspace\java-java11\pom.xml.
+2021-12-02 14:01:07,384 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:01:07,385 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:01:07,386 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:01:07,386 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:01:10,659 [Worker-101: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: devinstitut:java-java8:1.0-SNAPSHOT @ C:\Users\steev\eclipse-workspace\java-java11\pom.xml.
+2021-12-02 14:01:10,844 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:01:10,845 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:01:10,846 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:01:10,847 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:01:23,841 [Worker-100: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-12-02 14:01:24,120 [Worker-100: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: devinstitut:java-java8:1.0-SNAPSHOT @ C:\Users\steev\eclipse-workspace\java-java11\pom.xml.
+2021-12-02 14:01:24,295 [Worker-100: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /java-java11/src/main/java
+2021-12-02 14:01:24,296 [Worker-100: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /java-java11/src/test/java
+2021-12-02 14:01:24,375 [Worker-100: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-12-02 14:01:24,651 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:01:24,651 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:01:24,654 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:01:24,655 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:01:29,676 [Worker-103: Launching Executing clean in C__Users_steev_eclipse-workspace_java-java11] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\steev\eclipse-workspace\java-java11
+2021-12-02 14:01:29,678 [Worker-103: Launching Executing clean in C__Users_steev_eclipse-workspace_java-java11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-12-02 14:01:34,421 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:01:34,422 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:01:34,424 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:01:34,425 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:01:44,958 [Worker-102: Launching Executing install in C__Users_steev_eclipse-workspace_java-java11] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\steev\eclipse-workspace\java-java11
+2021-12-02 14:01:44,959 [Worker-102: Launching Executing install in C__Users_steev_eclipse-workspace_java-java11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-12-02 14:01:53,122 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:01:53,123 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:01:53,124 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:01:53,124 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:03:34,920 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:03:34,920 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:03:34,922 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:03:34,922 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:03:43,982 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:03:43,982 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:03:43,983 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:03:43,984 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:04:02,265 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:04:02,265 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:04:02,268 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:04:02,269 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:04:10,733 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:04:10,733 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:04:10,735 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:04:10,735 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:04:13,239 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:04:13,240 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:04:13,243 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:04:13,243 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:04:22,572 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:04:22,572 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:04:22,574 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:04:22,574 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:04:33,745 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:04:33,746 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:04:33,747 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:04:33,748 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:04:36,575 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:04:36,576 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:04:36,577 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:04:36,578 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:04:38,989 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:04:38,989 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:04:38,991 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:04:38,991 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:07:00,561 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:07:00,561 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:07:00,562 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:07:00,563 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:07:25,982 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:07:25,983 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:07:25,985 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:07:25,986 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:08:17,779 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:08:17,779 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:08:17,781 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:08:17,781 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:09:39,924 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:09:39,924 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:09:39,927 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:09:39,928 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:09:43,151 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:09:43,151 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:09:43,153 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:09:43,153 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:09:59,185 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:09:59,185 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:09:59,186 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:09:59,187 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:10:16,552 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:10:16,553 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:10:16,554 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:10:16,555 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:10:22,936 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:10:22,937 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:10:22,939 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:10:22,939 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:11:29,467 [Worker-108: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: devinstitut:java-java8:1.0-SNAPSHOT @ C:\Users\steev\eclipse-workspace\java-java11\pom.xml.
+2021-12-02 14:11:30,564 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:11:30,565 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:11:30,578 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:11:30,579 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:11:31,709 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:11:31,710 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:11:31,712 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:11:31,712 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:11:49,615 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:11:49,615 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:11:49,616 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:11:49,617 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:11:54,950 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:11:54,951 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:11:54,952 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:11:54,953 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:12:14,805 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:12:14,806 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:12:14,807 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:12:14,807 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:12:42,851 [Worker-107: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-12-02 14:12:43,068 [Worker-107: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: devinstitut:java-java8:1.0-SNAPSHOT @ C:\Users\steev\eclipse-workspace\java-java11\pom.xml.
+2021-12-02 14:12:43,240 [Worker-107: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /java-java11/src/main/java
+2021-12-02 14:12:43,241 [Worker-107: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /java-java11/src/test/java
+2021-12-02 14:12:43,307 [Worker-107: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-12-02 14:12:43,602 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:12:43,602 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:12:43,605 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:12:43,605 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:33:15,473 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:33:15,473 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:33:15,474 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:33:15,475 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:33:23,370 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:33:23,371 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:33:23,373 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:33:23,373 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:33:24,743 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:33:24,744 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:33:24,745 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:33:24,746 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:33:28,570 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:33:28,571 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:33:28,572 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:33:28,572 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:33:34,233 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:33:34,233 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:33:34,235 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:33:34,235 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:34:01,704 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:34:01,705 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:34:01,706 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:34:01,707 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:45:35,823 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:45:35,824 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:45:35,826 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:45:35,826 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:45:37,466 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:45:37,466 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:45:37,467 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:45:37,467 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:45:45,436 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:45:45,436 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:45:45,438 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:45:45,438 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:45:48,055 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:45:48,056 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:45:48,057 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:45:48,058 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:45:51,227 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:45:51,228 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:45:51,230 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:45:51,230 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:45:53,326 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:45:53,327 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:45:53,328 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:45:53,329 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:45:55,557 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:45:55,557 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:45:55,558 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:45:55,558 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:45:58,131 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:45:58,132 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:45:58,133 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:45:58,133 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:46:09,113 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:46:09,113 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:46:09,116 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:46:09,116 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:46:12,242 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:46:12,243 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:46:12,245 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:46:12,246 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:46:22,736 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:46:22,736 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:46:22,737 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:46:22,738 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:46:39,896 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:46:39,897 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:46:39,898 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:46:39,898 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:46:42,497 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:46:42,497 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:46:42,499 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:46:42,499 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:46:44,824 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:46:44,824 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:46:44,826 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:46:44,826 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:46:47,931 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:46:47,932 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:46:47,933 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:46:47,934 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:46:49,457 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:46:49,458 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:46:49,459 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:46:49,460 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:48:52,972 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:48:52,973 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:48:52,974 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:48:52,975 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 14:51:04,776 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:51:04,776 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 14:51:04,777 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 14:51:04,778 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 15:15:31,094 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:15:31,094 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 15:15:31,095 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:15:31,096 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 15:15:33,711 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:15:33,711 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 15:15:33,712 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:15:33,713 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 15:15:39,113 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:15:39,114 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 15:15:39,115 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:15:39,115 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 15:15:42,400 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:15:42,401 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 15:15:42,402 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:15:42,402 [Worker-130: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 15:16:43,574 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:16:43,574 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 15:16:43,576 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:16:43,576 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 15:16:47,027 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:16:47,027 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 15:16:47,029 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:16:47,029 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 15:16:49,590 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:16:49,590 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 15:16:49,591 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:16:49,592 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 15:16:54,643 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:16:54,644 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 15:16:54,645 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:16:54,645 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 15:17:28,936 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:17:28,936 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 15:17:28,937 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:17:28,937 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 15:19:14,301 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:19:14,302 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 15:19:14,303 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:19:14,303 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 15:19:28,954 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:19:28,954 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 15:19:28,956 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:19:28,956 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 15:19:33,720 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:19:33,720 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 15:19:33,721 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:19:33,722 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 15:19:39,178 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:19:39,179 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 15:19:39,180 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:19:39,180 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 15:40:40,593 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-02 15:41:10,476 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.6; built: 2021-06-29T15:28:56.259Z; git: 37e7731b4b142a882d73974ff3bec78d621bd674; jvm 17+35
+2021-12-02 15:41:10,512 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2021-12-02 15:41:10,547 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5eb731b7{/help,null,AVAILABLE}
+2021-12-02 15:41:10,583 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3f0dce7d{HTTP/1.1, (http/1.1)}{127.0.0.1:62585}
+2021-12-02 15:41:10,587 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@7353038a{STARTING}[10.0.6,sto=0] @48844ms
+2021-12-02 15:53:04,887 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@7353038a{STOPPING}[10.0.6,sto=0]
+2021-12-02 15:53:04,897 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@3f0dce7d{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2021-12-02 15:53:04,947 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5eb731b7{/help,null,STOPPED}
+2021-12-02 15:53:18,533 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-02 15:57:08,594 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-02 15:57:41,895 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 15:57:41,896 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\codePropre\src\main\resources
+2021-12-02 15:57:41,899 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 15:57:41,901 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\codePropre\src\test\resources
+2021-12-02 15:57:42,077 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:57:42,077 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 15:57:42,080 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 15:57:42,080 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-02 16:03:01,162 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-02 16:05:40,140 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-02 16:07:33,459 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-02 16:12:55,998 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-12-02 16:13:16,469 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 16:13:16,472 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\codePropre\src\main\resources
+2021-12-02 16:13:16,476 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-02 16:13:16,478 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\codePropre\src\test\resources
+2021-12-02 16:13:16,678 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 16:13:16,679 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-02 16:13:16,681 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-02 16:13:16,681 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
+2021-12-05 10:03:38,140 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-12-05 10:03:47,127 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-05 10:03:47,129 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\codePropre\src\main\resources
+2021-12-05 10:03:47,132 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-12-05 10:03:47,133 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\codePropre\src\test\resources
+2021-12-05 10:03:47,811 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-05 10:03:47,812 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\main\resources
+2021-12-05 10:03:47,813 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'utf-8' encoding to copy filtered resources.
+2021-12-05 10:03:47,814 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\steev\eclipse-workspace\java-java11\src\test\resources
