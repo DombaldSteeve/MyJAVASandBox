@@ -58,6 +58,7 @@ public class TestSelect {
 				Fournisseur f = new Fournisseur(rs.getInt("id"),rs.getString("NOM"));
 				lf.add(f);
 			}
+			rs.close();
 			return lf;
 		}
 		finally {

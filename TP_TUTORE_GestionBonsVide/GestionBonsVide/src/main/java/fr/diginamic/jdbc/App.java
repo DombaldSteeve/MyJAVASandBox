@@ -1,6 +1,11 @@
 package fr.diginamic.jdbc;
 
+import java.sql.SQLException;
 
+import fr.diginamic.jdbc.dao.impl.ArticleDaoImpl;
+import fr.diginamic.jdbc.dao.impl.FournisseurDaoImpl;
+import fr.diginamic.jdbc.entites.Article;
+import fr.diginamic.jdbc.entites.Fournisseur;
 
 /**
  * @author christophe Germain
@@ -14,7 +19,7 @@ package fr.diginamic.jdbc;
  * 1 - CRUD Fournisseur
  * 2 - CRUD Article
  * 3 - CRUD Bon
- * 4 - Gérer des Compo pour faire le lien entre un article et un bon avec une qté
+ * 4 - Gérer des Compo pour faire le lien entre un article et un bon avec une quantité
  * 
  *  En reprenant les consignes des TP 4 - 5 - 6
  *  
@@ -48,6 +53,21 @@ public class App {
 	 * @param args tableau de String en pramètre facultatif 
 	 */
 	public static void main(String[] args) {
+		
+		try {
+			ArticleDaoImpl fdi = new ArticleDaoImpl();
+			// Créer
+			fdi.insert(new Article(0, "CIA", "Scotch", 4.45, 2));
+			fdi.extraire().stream().forEach(fo->System.out.println(fo.getDesignation()));
+			//fdi.update("TITI", "TOTO");
+			//fdi.extraire().stream().forEach(fo->System.out.println(fo.getNom()));
+			//fdi.delete(new Article(0, null, null, 0, 4));
+			//fdi.extraire().stream().forEach(fo->System.out.println(fo.getNom()));
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 	}
 	

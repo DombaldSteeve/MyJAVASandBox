@@ -13,13 +13,13 @@ public class FournisseurDaoJdbc implements FournisseurDao {
 
 	@Override
 	public List<Fournisseur> extraire() {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
 	@Override
 	public void insert(Fournisseur fournisseur) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
