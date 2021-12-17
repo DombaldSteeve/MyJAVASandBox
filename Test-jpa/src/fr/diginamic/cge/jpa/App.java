@@ -8,8 +8,6 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
 
-import fr.diginamic.cge.jpa.model.ELivre;
-
 
 /**
  * Hello world!
@@ -17,8 +15,8 @@ import fr.diginamic.cge.jpa.model.ELivre;
  */
 public class App 
 {
-    
-    public static void main( String[] args )
+	
+	public static void main( String[] args )
     {
     	EntityManagerFactory efm =null;
     	try 
@@ -27,6 +25,7 @@ public class App
     	 * Choix de l'unité de persistence dans le fichier de Persistence.xml
     	 * "bddFILROUGE"
     	 */
+    		
 	        efm = Persistence.createEntityManagerFactory("bddFILROUGE");
 	        EntityManager em = efm.createEntityManager();
 	        
@@ -78,14 +77,11 @@ public class App
 	       */
 	        
 	        
-	        TypedQuery<ELivre> queryLi = em.createQuery("SELECT a FROM ELivre a", ELivre.class);
+	       /* TypedQuery<ELivre> queryLi = em.createQuery("SELECT l FROM ELivre l ", ELivre.class);
 	        
 	        List<ELivre> li = queryLi.getResultList();
-	        li.stream().forEach(l -> System.out.println(l));
-	        
-	        
-	        
-	        
+	        li.stream().forEach(a -> System.out.println(a.getNom() + " de " + a.getAuteur()));
+	      */
 	        
 	       /* 
 	        //MODIFICATION : DELETE
@@ -94,8 +90,7 @@ public class App
 	        em.remove(efosupp);
 	        em.getTransaction().commit();
 	      */
-	        
-	        
+	     
 	        em.close();
 	        
     	}
