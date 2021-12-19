@@ -1,6 +1,7 @@
 package fr.diginamic.cge.jpa.model;
 
 import java.util.Date;
+import java.util.Set;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -8,6 +9,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
@@ -33,9 +36,16 @@ public class EEmprunt {
 	
 	@ManyToOne
 	@JoinColumn(name = "ID_CLIENT")
-	private EClient idClient;
+	private EClient clientemprunt;
+	
+	@ManyToMany
+	@JoinTable(name = "COMPO",
+		joinColumns = @JoinColumn(name = "ID_EMP", referencedColumnName = "ID"),
+		inverseJoinColumns = @JoinColumn(name = "ID_LIV", referencedColumnName = "ID"))
+	private Set<ELivre> empruntLivres;
 	
 	
+
 	public EEmprunt() {
 		// TODO Auto-generated constructor stub
 	}
@@ -81,15 +91,22 @@ public class EEmprunt {
 	}
 
 
-	public EClient getIdClient() {
-		return idClient;
+	public EClient getClientemprunt() {
+		return clientemprunt;
 	}
 
 
-	public void setIdClient(EClient idClient) {
-		this.idClient = idClient;
+	public void setClientemprunt(EClient clientemprunt) {
+		this.clientemprunt = clientemprunt;
 	}
 	
-	
+	public Set<ELivre> getEmpruntLivre() {
+		return empruntLivres;
+	}
+
+
+	public void setEmpruntLivre(Set<ELivre> empruntLivre) {
+		this.empruntLivres = empruntLivre;
+	}
 
 }

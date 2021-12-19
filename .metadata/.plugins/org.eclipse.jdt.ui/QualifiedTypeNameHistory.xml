@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.nio.file.ClosedFileSystemException"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="test.CompteBancaire"/>
-    <fullyQualifiedTypeName name="test.CompteEpargne"/>
-    <fullyQualifiedTypeName name="Vehicule.Voiture"/>
-    <fullyQualifiedTypeName name="Vehicule.Camion"/>
-    <fullyQualifiedTypeName name="Vehicule.Cabriolet"/>
     <fullyQualifiedTypeName name="Interfaces.iBateau"/>
     <fullyQualifiedTypeName name="Classes.Voilier"/>
     <fullyQualifiedTypeName name="Classes.Hydravion"/>
@@ -32,6 +25,39 @@
     <fullyQualifiedTypeName name="com.mysql.jdbc.Statement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="fr.diginamic.jdbc.entites.Fournisseur"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.EFournisseur"/>
+    <fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
+    <fullyQualifiedTypeName name="antlr.collections.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.hibernate.mapping.Set"/>
+    <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.EArticle"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="javax.persistence.Temporal"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="javax.persistence.Transient"/>
+    <fullyQualifiedTypeName name="javax.persistence.Enumerated"/>
+    <fullyQualifiedTypeName name="javax.persistence.EnumType"/>
+    <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.EFour01"/>
+    <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.enumeration.Genre"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
+    <fullyQualifiedTypeName name="javax.persistence.JoinTable"/>
+    <fullyQualifiedTypeName name="javax.persistence.JoinColumns"/>
+    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.EEmprunt"/>
+    <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.ELivre"/>
+    <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.Compo"/>
+    <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.EClient"/>
 </qualifiedTypeNameHistroy>
