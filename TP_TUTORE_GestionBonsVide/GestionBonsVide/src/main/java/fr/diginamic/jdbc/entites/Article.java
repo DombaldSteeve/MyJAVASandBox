@@ -8,6 +8,10 @@ public class Article {
 	private double prix;
 	private int id_fou;
 	
+	public Article () {
+		
+	}
+	
 	
 	//Constructeur
 	
@@ -73,9 +77,9 @@ public class Article {
 
 
 	@Override
-	public String toString() {
-		return "Articles [id=" + id + ", ref=" + ref + ", designation=" + designation + ", prix=" + prix + ", id_fou="
-				+ id_fou + "]";
+	public String toString() { 
+		return "Articles [id = " + id + ", ref = " + ref + ", designation = " + designation + ", prix = " + prix + ", id_fou = "
+				+ id_fou + "]\n";
 	}
 	
 	

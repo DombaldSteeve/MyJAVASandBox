@@ -11,7 +11,7 @@ import fr.diginamic.jdbc.connection.ConnectionBdd;
 import fr.diginamic.jdbc.dao.IFournisseurDao;
 import fr.diginamic.jdbc.entites.Fournisseur;
 
-public class FournisseurDaoImpl implements IFournisseurDao {
+public class FournisseurDaoImpl  implements IFournisseurDao  {
 	
 	private Connection conn;
 	private Statement stmt;
@@ -83,7 +83,6 @@ public class FournisseurDaoImpl implements IFournisseurDao {
 		}
 		
 	}
-	
 
 	@Override
 	public boolean delete(Fournisseur fournisseur) throws SQLException {
@@ -102,7 +101,7 @@ public class FournisseurDaoImpl implements IFournisseurDao {
 	@Override
 	public Fournisseur fiche(int idfour) throws SQLException {
 		// TODO Auto-generated method stub
-		String sql = "SELECT ID, NOM FROM FOURNISSEUR WHERE ID=" + idfour;
+		String sql = "SELECT ID, NOM FROM FOURNISSEUR WHERE ID = " + idfour;
 		ResultSet rs = null;
 		try {
 			this.stmt = this.conn.createStatement();
@@ -116,5 +115,6 @@ public class FournisseurDaoImpl implements IFournisseurDao {
 			if(this.stmt != null && !this.stmt.isClosed())  this.stmt.close();
 		}
 	}
-
+	
+	
 }

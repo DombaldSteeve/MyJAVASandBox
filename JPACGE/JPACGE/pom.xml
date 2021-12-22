@@ -12,6 +12,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <property name="hibernate.dialect"
+                value="org.hibernate.dialect.MySQL5InnoDBDialect" />
   </properties>
   
   <build>

@@ -6,6 +6,9 @@ import fr.diginamic.jdbc.dao.impl.ArticleDaoImpl;
 import fr.diginamic.jdbc.dao.impl.FournisseurDaoImpl;
 import fr.diginamic.jdbc.entites.Article;
 import fr.diginamic.jdbc.entites.Fournisseur;
+import fr.diginamic.jdbc.service.impl.ScannerMenu;
+
+import java.util.Scanner;
 
 /**
  * @author christophe Germain
@@ -19,7 +22,8 @@ import fr.diginamic.jdbc.entites.Fournisseur;
  * 1 - CRUD Fournisseur
  * 2 - CRUD Article
  * 3 - CRUD Bon
- * 4 - Gérer des Compo pour faire le lien entre un article et un bon avec une quantité
+ * 4 - Gérer des Compo pour faire le lien entre un article et un bon avec une quantité  
+ * 	
  * 
  *  En reprenant les consignes des TP 4 - 5 - 6
  *  
@@ -28,7 +32,7 @@ import fr.diginamic.jdbc.entites.Fournisseur;
  *  2 Gérer Article
  *  3 Gérer Bon
  *  4 Créer lien Promo (on aura directement la possibilité de saisir le nom de l'article
- *  , le numéro du bon et de la qté )
+ *  , le numéro du bon et de la qté ) 
  *  
  *  
  *  Sous Menus des choix 1 2 3
@@ -45,29 +49,18 @@ import fr.diginamic.jdbc.entites.Fournisseur;
  *  
  *   La validation des informations se fait par la touche Entrée 
  **/
+
 public class App {
 	
 	
 	/**
 	 * Point principal à gérer pour notre TP
 	 * @param args tableau de String en pramètre facultatif 
+	 * @throws SQLException 
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) throws SQLException {
 		
-		try {
-			ArticleDaoImpl fdi = new ArticleDaoImpl();
-			// Créer
-			fdi.insert(new Article(0, "CIA", "Scotch", 4.45, 2));
-			fdi.extraire().stream().forEach(fo->System.out.println(fo.getDesignation()));
-			//fdi.update("TITI", "TOTO");
-			//fdi.extraire().stream().forEach(fo->System.out.println(fo.getNom()));
-			//fdi.delete(new Article(0, null, null, 0, 4));
-			//fdi.extraire().stream().forEach(fo->System.out.println(fo.getNom()));
-			
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		ScannerMenu.Display();
 		
 	}
 	

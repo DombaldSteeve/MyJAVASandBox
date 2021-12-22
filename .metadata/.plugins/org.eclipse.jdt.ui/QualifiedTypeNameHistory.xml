@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Interfaces.iBateau"/>
-    <fullyQualifiedTypeName name="Classes.Voilier"/>
-    <fullyQualifiedTypeName name="Classes.Hydravion"/>
-    <fullyQualifiedTypeName name="Interfaces.iAvion"/>
-    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
-    <fullyQualifiedTypeName name="Interfaces.iOperation"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="Classes.CompteCourant"/>
     <fullyQualifiedTypeName name="java.nio.MappedByteBuffer"/>
     <fullyQualifiedTypeName name="Classes.Avion"/>
     <fullyQualifiedTypeName name="org.junit.Test"/>
@@ -16,16 +8,11 @@
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="org.apache.commons.codec.digest.DigestUtils"/>
     <fullyQualifiedTypeName name="org.junit.Assert"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.util.ResourceBundle"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="com.mysql.jdbc.Statement"/>
-    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-    <fullyQualifiedTypeName name="fr.diginamic.jdbc.entites.Fournisseur"/>
-    <fullyQualifiedTypeName name="java.sql.Statement"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
     <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
@@ -60,4 +47,17 @@
     <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.ELivre"/>
     <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.Compo"/>
     <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.EClient"/>
+    <fullyQualifiedTypeName name="fr.diginamic.jdbc.TestInsertion"/>
+    <fullyQualifiedTypeName name="fr.diginamic.jdbc.dao.IFournisseur"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="fr.diginamic.jdbc.dao.impl.FournisseurImpl"/>
+    <fullyQualifiedTypeName name="fr.diginamic.jdbc.entites.Fournisseur"/>
+    <fullyQualifiedTypeName name="fr.diginamic.jdbc.connection.ConnexionBdD"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="fr.diginamic.jdbc.service.impl.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

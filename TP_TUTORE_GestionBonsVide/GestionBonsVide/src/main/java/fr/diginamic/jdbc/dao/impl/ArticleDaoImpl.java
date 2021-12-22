@@ -11,7 +11,7 @@ import fr.diginamic.jdbc.connection.ConnectionBdd;
 import fr.diginamic.jdbc.dao.IArticles;
 import fr.diginamic.jdbc.entites.Article;
 
-public class ArticleDaoImpl implements IArticles{
+public class ArticleDaoImpl implements IArticles {
 	
 	private Connection conn;
 	private Statement stm;
@@ -73,9 +73,23 @@ public class ArticleDaoImpl implements IArticles{
 	}
 
 	@Override
-	public int updateRef(Article id, String ref) throws SQLException {
+	public int updateRef(int id, String ref) throws SQLException {
 		//Requête SQL
-		String sql = "UPDATE ARTICLE SET REF=  '" + ref + "' WHERE ID = ? '";
+		String sql = "UPDATE ARTICLE SET REF = '" + ref + "' WHERE ID = " + id;
+		System.out.println(sql);
+		try {
+			this.stm = this.conn.createStatement();
+			return this.stm.executeUpdate(sql);
+		} finally {
+			if(this.stm != null && !this.stm.isClosed())
+				this.stm.close();
+		}
+	}
+
+	@Override
+	public int updateDesign(int id, String designation) throws SQLException {
+		//Requête SQL
+		String sql = "UPDATE ARTICLE SET DESIGNATION=  '" + designation + "' WHERE ID = " + id;
 		
 		try {
 			this.stm = this.conn.createStatement();
@@ -87,9 +101,9 @@ public class ArticleDaoImpl implements IArticles{
 	}
 
 	@Override
-	public int updateDesign(Article id, String designation) throws SQLException {
+	public int updatePrix(int id, Double prix) throws SQLException {
 		//Requête SQL
-		String sql = "UPDATE ARTICLE SET DESIGNATION=  '" + designation + "' WHERE ID = ? '";
+		String sql = "UPDATE ARTICLE SET PRIX=  '" + prix + "' WHERE ID = " + id;
 		
 		try {
 			this.stm = this.conn.createStatement();
@@ -101,23 +115,9 @@ public class ArticleDaoImpl implements IArticles{
 	}
 
 	@Override
-	public int updatePrix(Article id, Double prix) throws SQLException {
+	public int updateIdFou(int id, int id_fou) throws SQLException {
 		//Requête SQL
-		String sql = "UPDATE ARTICLE SET PRIX=  '" + prix + "' WHERE ID = ? '";
-		
-		try {
-			this.stm = this.conn.createStatement();
-			return this.stm.executeUpdate(sql);
-		} finally {
-			if(this.stm != null && !this.stm.isClosed())
-				this.stm.close();
-		}
-	}
-
-	@Override
-	public int updateIdFou(Article id, int id_fou) throws SQLException {
-		//Requête SQL
-		String sql = "UPDATE ARTICLE SET ID_FOU=  '" + id_fou + "' WHERE ID = ? '";
+		String sql = "UPDATE ARTICLE SET ID_FOU=  '" + id_fou + "' WHERE ID = " + id;
 		
 		try {
 			this.stm = this.conn.createStatement();
@@ -131,7 +131,7 @@ public class ArticleDaoImpl implements IArticles{
 	@Override
 	public boolean delete(Article article) throws SQLException {
 
-		String sql = "DELETE FROM ARTICLE WHERE ID_FOU =" + article.getId_fou();
+		String sql = "DELETE FROM ARTICLE WHERE ID =" + article.getId();
 		
 		try {
 			this.stm = this.conn.createStatement();
@@ -145,10 +145,10 @@ public class ArticleDaoImpl implements IArticles{
 	}
 
 	@Override
-	public Article fiche(int id_fou) throws SQLException {
+	public Article fiche(int article) throws SQLException {
 
 		// Requête SQL
-		String sql = "SELECT ID, REF, DESIGNATION, PRIX, ID_FOU FROM ARTICLE WHERE ID = " + id_fou;
+		String sql = "SELECT ID, REF, DESIGNATION, PRIX, ID_FOU FROM ARTICLE WHERE ID = " + article;
 		ResultSet rs = null;
 		
 		try {
