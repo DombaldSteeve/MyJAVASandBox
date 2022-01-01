@@ -1,13 +1,15 @@
 package fr.diginamic.cge.jpa.model;
 
-import java.util.Set;
+import java.time.LocalDate;
 
 import javax.persistence.Column;
+import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -17,21 +19,47 @@ public class EClient {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY) 
 	private int id;
+	
+	@ManyToOne
+	@JoinColumn(name = "ID_BANQUE")
+	private EBanque idBanque;
+	
+	@ManyToOne
+	@JoinColumn(name = "ID_COMPTE")
+	private ECompte idcompte;
+	
+	@Embedded
+	private Adresse adresse;
 
 	@Column(name = "NOM", length = 50, nullable = false)
 	private String nom;
 	
-	@Column(name = "prenom", length = 50, nullable = false)
+	@Column(name = "PRENOM", length = 50, nullable = false)
 	private String prenom;
 	
-	
-	 @OneToMany(mappedBy = "clientemprunt")
-	 private Set<EEmprunt> emprunts;
+	@Column(name = "DATENAISSANCE", length = 10, nullable = false)
+	private LocalDate dateNaissance;
 	 
 	
 	public EClient() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	
+
+	public EClient(int id, EBanque idBanque, ECompte idcompte, Adresse adresse, String nom, String prenom,
+			LocalDate dateNaissance) {
+		super();
+		this.id = id;
+		this.idBanque = idBanque;
+		this.idcompte = idcompte;
+		this.adresse = adresse;
+		this.nom = nom;
+		this.prenom = prenom;
+		this.dateNaissance = dateNaissance;
+	}
+
+
 
 	public int getId() {
 		return id;
@@ -57,12 +85,28 @@ public class EClient {
 		this.prenom = prenom;
 	}
 
-	public Set<EEmprunt> getEmprunts() {
-		return emprunts;
+	public LocalDate getDateNaissance() {
+		return dateNaissance;
 	}
 
-	public void setEmprunts(Set<EEmprunt> emprunts) {
-		this.emprunts = emprunts;
+	public void setDateNaissance(LocalDate dateNaissance) {
+		this.dateNaissance = dateNaissance;
+	}
+
+	public EBanque getIdBanque() {
+		return idBanque;
+	}
+
+	public void setIdBanque(EBanque idBanque) {
+		this.idBanque = idBanque;
+	}
+
+	public ECompte getIdcompte() {
+		return idcompte;
+	}
+
+	public void setIdcompte(ECompte idcompte) {
+		this.idcompte = idcompte;
 	}
 	
 	
