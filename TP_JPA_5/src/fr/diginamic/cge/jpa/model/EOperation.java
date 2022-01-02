@@ -27,13 +27,13 @@ public class EOperation {
 	@GeneratedValue(strategy = GenerationType.IDENTITY) 
 	private int id;
 	
-	@Column(name = "DATE", length = 6, nullable = false)
+	@Column(name = "DATE", length = 6, nullable = true)
 	private LocalDateTime date;
 	
 	@Column(name = "MONTANT", nullable = false)
 	private Double montant;
 	
-	@Column(name = "MOTIF", length = 150, nullable = false)
+	@Column(name = "MOTIF", length = 150, nullable = true)
 	private String motif;
 	
 	@ManyToOne
@@ -95,6 +95,18 @@ public class EOperation {
 
 	public void setMotif(String motif) {
 		this.motif = motif;
+	}
+
+
+
+	public ECompte getIdcompte() {
+		return idcompte;
+	}
+
+
+
+	public void setIdcompte(ECompte idcompte) {
+		this.idcompte = idcompte;
 	}
 	
 	

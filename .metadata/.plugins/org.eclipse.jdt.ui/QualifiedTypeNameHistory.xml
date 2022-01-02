@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="antlr.collections.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="org.hibernate.mapping.Set"/>
     <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.EArticle"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
@@ -50,14 +48,16 @@
     <fullyQualifiedTypeName name="fr.diginamic.jdbc.dao.impl.BonDaoImpl"/>
     <fullyQualifiedTypeName name="fr.diginamic.jdbc.service.impl.ScannerMenuFiche"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
-    <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.EClient"/>
     <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
     <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
     <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="javax.persistence.Embedded"/>
     <fullyQualifiedTypeName name="javax.persistence.Embeddable"/>
+    <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.EClient"/>
+    <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.Adresse"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.EmbeddedId"/>
 </qualifiedTypeNameHistroy>

@@ -12,7 +12,6 @@ import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
@@ -27,10 +26,10 @@ public class ECompte {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
-	@Column(name = "NUMERO", length = 75, nullable = false)
+	@Column(name = "NUMERO", length = 75, nullable = true)
 	private String numero;
 	
-	@Column(name = "SOLDE" , length = 75, nullable = false)
+	@Column(name = "SOLDE" , length = 75, nullable = true)
 	private Double solde;
 	
 	@ManyToOne
@@ -89,6 +88,18 @@ public class ECompte {
 
 	public void setIdclient(EClient idclient) {
 		this.idclient = idclient;
+	}
+
+
+
+	public EOperation getIdoperation() {
+		return idoperation;
+	}
+
+
+
+	public void setIdoperation(EOperation idoperation) {
+		this.idoperation = idoperation;
 	}
 
 	

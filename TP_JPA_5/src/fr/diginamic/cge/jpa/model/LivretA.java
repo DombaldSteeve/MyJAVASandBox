@@ -17,6 +17,7 @@ public class LivretA extends ECompte {
 	
 	@Column
 	private Double taux;
+	
 
 	public LivretA() {
 		// TODO Auto-generated constructor stub
