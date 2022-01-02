@@ -20,6 +20,9 @@ import fr.diginamic.cge.jpa.model.ECompte;
 public class TestBanque 
 {
 	
+	private static String DURANT;
+	private static String Nicolas;
+
 	public static void main( String[] args )
     {
     	EntityManagerFactory emf =null;
@@ -48,10 +51,17 @@ public class TestBanque
 	        em.getTransaction().begin();
 	        EClient ecl = new EClient();
 	        ecl.setNom("DURANT");
-	        ecl.setPrenom("Nicolas");
+	        ecl.setPrenom("Niko");
 	        em.persist(ecl);
 	        em.getTransaction().commit();
-	        System.out.println(ecl.getNom());
+	        System.out.println(ecl.getNom() + " " + ecl.getPrenom());
+	        
+	        em.getTransaction().begin();
+	        EBanque ebq = new EBanque();
+	        ebq.setNom("HSBC");
+	        em.persist(ebq);
+	        em.getTransaction().commit();
+	        System.out.println(ebq.getNom());
 	        
 	     
 	        em.close();

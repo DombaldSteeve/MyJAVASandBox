@@ -17,7 +17,7 @@ import javax.persistence.Table;
 public class EClient {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY) 
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
 	@ManyToOne
@@ -29,6 +29,7 @@ public class EClient {
 	private ECompte idcompte;
 	
 	@Embedded
+	@Column(nullable = true)
 	private Adresse adresse;
 
 	@Column(name = "NOM", length = 50, nullable = false)
@@ -37,14 +38,9 @@ public class EClient {
 	@Column(name = "PRENOM", length = 50, nullable = false)
 	private String prenom;
 	
-	@Column(name = "DATENAISSANCE", length = 10, nullable = false)
+	@Column(name = "DATENAISSANCE", length = 10, nullable = true)
 	private LocalDate dateNaissance;
 	 
-	
-	public EClient() {
-		// TODO Auto-generated constructor stub
-	}
-	
 	
 
 	public EClient(int id, EBanque idBanque, ECompte idcompte, Adresse adresse, String nom, String prenom,
@@ -58,8 +54,8 @@ public class EClient {
 		this.prenom = prenom;
 		this.dateNaissance = dateNaissance;
 	}
-
-
+	
+	public EClient() {}
 
 	public int getId() {
 		return id;
@@ -108,7 +104,6 @@ public class EClient {
 	public void setIdcompte(ECompte idcompte) {
 		this.idcompte = idcompte;
 	}
-	
 	
 
 }

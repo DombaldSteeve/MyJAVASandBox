@@ -6,7 +6,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -17,7 +19,7 @@ public class EBanque {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	
-	@OneToMany
+	@OneToOne
 	@JoinColumn(name = "ID_CLIENT")
 	private EClient idClient;
 	
@@ -30,8 +32,6 @@ public class EBanque {
 		// TODO Auto-generated constructor stub
 	}
 	
-	
-
 
 	public EBanque(int id, EClient idClient, String nom) {
 		super();

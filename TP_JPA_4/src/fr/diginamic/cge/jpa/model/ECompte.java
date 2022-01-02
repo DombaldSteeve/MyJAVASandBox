@@ -11,7 +11,9 @@ import javax.persistence.Id;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -31,11 +33,11 @@ public class ECompte {
 	@Column(name = "SOLDE" , length = 75, nullable = false)
 	private Double solde;
 	
-	@OneToMany
+	@ManyToOne
 	@JoinColumn(name = "ID_CLIENT")
 	private EClient idclient;
 	
-	@OneToMany
+	@OneToOne
 	@JoinColumn(name = "ID_OPERATION")
 	private EOperation idoperation;
 

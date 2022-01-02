@@ -1,29 +1,27 @@
 package fr.diginamic.cge.jpa.model;
 
+import javax.persistence.Column;
 import javax.persistence.Embeddable;
+import javax.persistence.Table;
 
 @Embeddable
+@Table(name = "ADRESSE")
 public class Adresse {
 	
-	private int id;
+	
+	@Column(name = "NUMERO", nullable = true)
 	private int numero;
+	
+	@Column(name = "RUE", nullable = true)
 	private String rue;
+	
+	@Column(name = "CODEPOSTAL", nullable = true)
 	private int codePostal;
+	
+	@Column(name = "VILLE", nullable = true)
 	private String ville;
 	
 	
-
-	public int getId() {
-		return id;
-	}
-
-
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
-
 
 	public int getNumero() {
 		return numero;
