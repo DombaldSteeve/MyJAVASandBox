@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+          http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       
+	      	<context:annotation-config>
+		</context:annotation-config>
+		<context:component-scan base-package="modele">
+		</context:component-scan>
+          
+	<bean id="admin" class="modele.User">
+		<property name="firstName" value="Steeve"/>
+		<property name="lastName" value="DOMBALD"/>
+		<property name="login" value="sdombald"/>
+		<property name="pwd" value="1234"/>
+	</bean>
+	
+	<bean id="userManager" class="services.UserManager">
+		<property name="users">
+			<list>
+				<ref bean="admin"/>
+			</list>
+		</property>	
+	</bean>
+	
+	<bean id="dependency" scope="prototype" class="modele.Dependency"/>
+	
+	<bean id="constructorDependencyInjection" class="modele.ConstructorDependencyInjection">
+		<constructor-arg ref="dependency"/>
+	</bean>
+	
+	<bean id="setterDependencyInjection" class="modele.SetterDependencyInjection">
+		<property name="dependency" ref="dependency"/>
+	</bean>
+	
+	<bean id="autowireDependencyInjection" class="modele.AutowireDependencyInjection" autowire="byName"/>
+    
+          
+</beans>

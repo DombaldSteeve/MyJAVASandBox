@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.hibernate.mapping.Set"/>
-    <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.EArticle"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="javax.persistence.Temporal"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="javax.persistence.Transient"/>
-    <fullyQualifiedTypeName name="javax.persistence.Enumerated"/>
-    <fullyQualifiedTypeName name="javax.persistence.EnumType"/>
-    <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.EFour01"/>
-    <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.enumeration.Genre"/>
-    <fullyQualifiedTypeName name="javax.persistence.Id"/>
-    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
-    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
-    <fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
     <fullyQualifiedTypeName name="javax.persistence.JoinTable"/>
     <fullyQualifiedTypeName name="javax.persistence.JoinColumns"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
@@ -29,7 +15,6 @@
     <fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="fr.diginamic.jdbc.service.impl.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="fr.diginamic.jdbc.service.impl.ScannerMenuUpdate"/>
     <fullyQualifiedTypeName name="fr.diginamic.jdbc.service.impl.ScannerMenuInsert"/>
@@ -39,7 +24,6 @@
     <fullyQualifiedTypeName name="fr.diginamic.jdbc.service.impl.ScannerMenu"/>
     <fullyQualifiedTypeName name="fr.diginamic.jdbc.dao.impl.FournisseurDaoImpl"/>
     <fullyQualifiedTypeName name="fr.diginamic.jdbc.service.impl.ScannerMenuExtraire"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="fr.diginamic.jdbc.entites.Fournisseur"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="fr.diginamic.jdbc.entites.Article"/>
@@ -60,4 +44,20 @@
     <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.Adresse"/>
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="javax.persistence.EmbeddedId"/>
+    <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.LivretA"/>
+    <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.AssuranceVie"/>
+    <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.Virement"/>
+    <fullyQualifiedTypeName name="fr.diginamic.cge.jpa.model.EOperation"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="modele.User"/>
+    <fullyQualifiedTypeName name="services.UserManager"/>
+    <fullyQualifiedTypeName name="modele.ConstructorDependencyInjection"/>
+    <fullyQualifiedTypeName name="modele.SetterDependencyInjection"/>
+    <fullyQualifiedTypeName name="modele.AutowireDependencyInjection"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="modele.AnnotationDependencyInjection"/>
 </qualifiedTypeNameHistroy>
