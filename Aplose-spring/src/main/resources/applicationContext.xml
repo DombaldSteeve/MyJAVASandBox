@@ -38,5 +38,6 @@
 	
 	<bean id="autowireDependencyInjection" class="modele.AutowireDependencyInjection" autowire="byName"/>
     
+    <bean id="springAware" class="modele.SpringAware" init-method="initMethod" destroy-method="destroyMethod"/>
           
 </beans>

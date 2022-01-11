@@ -7,6 +7,7 @@ import modele.AnnotationDependencyInjection;
 import modele.AutowireDependencyInjection;
 import modele.ConstructorDependencyInjection;
 import modele.SetterDependencyInjection;
+import modele.SpringAware;
 import modele.User;
 import services.UserManager;
 
@@ -48,6 +49,11 @@ public class DigiSpringMain {
         if (anndi.getDependency() != null){
             System.out.println("-> La dépendance à bien était injectée automatiquement par annotation (par Spring) : " + anndi.getDependency());
         }
+        
+        SpringAware sa = context.getBean("springAware",	SpringAware.class);
+        System.out.println("Nom du bean SpringAware est :" + sa.getBeanName());
+        System.out.println("Classloader :" + sa.getClassLoader());
+        System.out.println("ApplicationContext :" + sa.getApplicationContext());
 	}
 	
 	
