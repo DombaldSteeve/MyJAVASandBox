@@ -1,14 +1,17 @@
 package MainPack;
 
-import ObjetsClass.EnceinteConnectee;
+import ObjetsClass.Fabrique;
 import ObjetsClass.ObjetConnecte;
 
 public class App {
 	
-	public static  getObjetConnecte(int typeObject, int limite) {
-		if(typeObject == 1) {
-			return new EnceinteConnectee(limite);
-		}
+	public static void main(String[] args) {
+		
+		Fabrique fabrique = null;
+		fabrique = Fabrique.getFabrique(1);
+		ObjetConnecte resultat = fabrique.getObjetConnecte(3, 10);
+		System.out.println(resultat);
+		
 	}
 
 }
