@@ -38,6 +38,8 @@
 		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
 		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\steev\eclipse-workspace\tp_spring_jpa_biblio_vide"/>
+			<item value="C:\Users\steev\Downloads\digi-spring"/>
 			<item value="C:\Users\steev\Desktop\KesKonMange\KKMeclipse\KeskonMange-main\src"/>
 			<item value="C:\Users\steev\Desktop\KesKonMange\KKMeclipse\KeskonMange-main\ressources"/>
 			<item value="C:\Users\steev\Desktop\KesKonMange\KKMeclipse\KeskonMange-main\.settings"/>

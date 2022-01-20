@@ -6,8 +6,14 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.util.Date;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+import org.springframework.beans.factory.annotation.Qualifier;
+
 import myapp.services.ILogger;
 
+@Qualifier("test")
 public class BeanFileLogger implements ILogger {
 	
 	// parameter: writer name
@@ -17,6 +23,7 @@ public class BeanFileLogger implements ILogger {
 		private PrintWriter writer;
 		
 		//start service
+		@PostConstruct
 		public void start() {
 			if(fileName == null) {
 				throw new IllegalStateException("no fileName");
@@ -31,6 +38,7 @@ public class BeanFileLogger implements ILogger {
 		}
 		
 		//stop service
+		@PreDestroy
 		public void stop() {
 			writer.close();
 			System.err.println("Stop " + this);

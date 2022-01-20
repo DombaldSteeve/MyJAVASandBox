@@ -15,10 +15,8 @@
     <context:component-scan base-package="myapp.imp" />
 
 	<!--  logger sur /tmp/myapp.log  -->
-    <bean id="FileLogger" class="myapp.imp.FileLogger">
-        <property name="fileName">
-         	<value>/tmp/myapp.log</value>
-         </property>
+    <bean id="fileLogger" class="myapp.imp.BeanFileLogger">
+        <property name="fileName" value="tmp/myapp.log"/>
     </bean>
    
 </beans>

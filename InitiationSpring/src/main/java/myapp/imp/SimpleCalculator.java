@@ -5,10 +5,12 @@ import javax.annotation.PreDestroy;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
 
 import myapp.services.ICalculator;
 import myapp.services.ILogger;
 
+@Service
 public class SimpleCalculator implements ICalculator {
 	
 private ILogger logger = new myapp.imp.StderrLogger();
