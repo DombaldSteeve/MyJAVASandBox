@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.BeanNameAware"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.BeanClassLoaderAware"/>
-    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContextAware"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
-    <fullyQualifiedTypeName name="java.lang.UnsupportedOperationException"/>
-    <fullyQualifiedTypeName name="java.lang.ClassLoader"/>
-    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
-    <fullyQualifiedTypeName name="modele.SpringAware"/>
-    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="java.io.OutputStream"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
@@ -60,4 +50,14 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="myapp.services.ICrud"/>
+    <fullyQualifiedTypeName name="SuperClass.ObjetConnecte"/>
+    <fullyQualifiedTypeName name="ObjetsClass.EnceinteConnectee"/>
+    <fullyQualifiedTypeName name="FabriquePack.Fabrique"/>
+    <fullyQualifiedTypeName name="fr.diginamic.entities.Zoo"/>
+    <fullyQualifiedTypeName name="fr.diginamic.entities.Zone"/>
+    <fullyQualifiedTypeName name="fr.diginamic.entities.Animal"/>
+    <fullyQualifiedTypeName name="fr.diginamic.builder.ZooBuilder"/>
+    <fullyQualifiedTypeName name="Singleton"/>
+    <fullyQualifiedTypeName name="ObjetsClass.Fabrique"/>
+    <fullyQualifiedTypeName name="ObjetsClass.ObjetConnecte"/>
 </qualifiedTypeNameHistroy>

@@ -64,7 +64,7 @@
 		<item key="HISTORY_SIZE" value="0"/>
 	</section>
 	<section name="AddGetterSetterDialog">
-		<item key="SortOrdering" value="false"/>
+		<item key="SortOrdering" value="true"/>
 		<item key="RemoveFinal" value="false"/>
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
@@ -151,7 +151,7 @@
 		<item key="renameSubpackages" value="false"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item key="index" value="1"/>
+		<item key="index" value="3"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.typehierarchy.QuickHierarchy">
 		<item key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_WIDTH" value="350"/>

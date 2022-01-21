@@ -15,7 +15,6 @@ public class ScannerLauncher {
 		String userEntry = ScanLaunch.nextLine();
 		return userEntry;
 		
-				
 	}
 
 }
