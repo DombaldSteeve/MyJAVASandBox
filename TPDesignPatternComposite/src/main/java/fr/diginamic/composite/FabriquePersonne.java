@@ -9,7 +9,7 @@ public class FabriquePersonne extends Fabrique {
 	
 
 	@Override
-	public IEntite createEntite() {
+	public IEntite createEntite(int Id) {
 		
 		Scanner scan = new Scanner(System.in);
 		

@@ -9,14 +9,14 @@ public class FabriqueDepartement extends Fabrique {
 	
 
 	@Override
-	public IEntite createEntite() {
+	public IEntite createEntite(int id) {
 		
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Donner un nom à votre département :");
 		String nomDep = scan.next();
 		
-		return new Departement(nomDep);
+		return new Departement(nomDep, id);
 	}
 
 }
