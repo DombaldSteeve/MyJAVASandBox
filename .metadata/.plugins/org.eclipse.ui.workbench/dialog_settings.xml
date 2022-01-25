@@ -8,12 +8,13 @@
 	</section>
 	<section name="ImportExportAction">
 		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.FileSystem"/>
-		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.FileSystem"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.m2e.core.wizards.Maven2ImportWizard"/>
 		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 		</list>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.m2e"/>
 		</list>
 	</section>
 	<section name="ZipFileExportWizard">
@@ -38,6 +39,8 @@
 		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
 		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\steev\eclipse-workspace\Biblio"/>
+			<item value="C:\Users\steev\Desktop\tp_spring_jpa_biblio_vide"/>
 			<item value="C:\Users\steev\eclipse-workspace\tp_spring_jpa_biblio_vide"/>
 			<item value="C:\Users\steev\Downloads\digi-spring"/>
 			<item value="C:\Users\steev\Desktop\KesKonMange\KKMeclipse\KeskonMange-main\src"/>

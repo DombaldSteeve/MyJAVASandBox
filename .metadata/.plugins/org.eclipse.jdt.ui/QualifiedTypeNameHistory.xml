@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.OutputStream"/>
-    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
-    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
-    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
-    <fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
-    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-    <fullyQualifiedTypeName name="org.junit.Before"/>
-    <fullyQualifiedTypeName name="org.junit.Test"/>
-    <fullyQualifiedTypeName name="myapp.imp.FileLogger"/>
-    <fullyQualifiedTypeName name="myapp.imp.StderrLogger"/>
     <fullyQualifiedTypeName name="myapp.imp.SimpleCalculator"/>
     <fullyQualifiedTypeName name="myapp.imp.BeanFileLogger"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
     <fullyQualifiedTypeName name="org.springframework.test.context.junit4.SpringJUnit4ClassRunner"/>
     <fullyQualifiedTypeName name="org.springframework.test.context.ContextConfiguration"/>
@@ -60,4 +47,17 @@
     <fullyQualifiedTypeName name="Singleton"/>
     <fullyQualifiedTypeName name="ObjetsClass.Fabrique"/>
     <fullyQualifiedTypeName name="ObjetsClass.ObjetConnecte"/>
+    <fullyQualifiedTypeName name="org.jcp.xml.dsig.internal.dom.DOMUtils"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.ApplicationRunner"/>
+    <fullyQualifiedTypeName name="com.diginamic.D11.Biblio.repository.JpaClient"/>
+    <fullyQualifiedTypeName name="com.diginamic.D11.Biblio.model.Client"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
+    <fullyQualifiedTypeName name="com.diginamic.D11.Biblio.model.Livre"/>
+    <fullyQualifiedTypeName name="com.diginamic.D11.Biblio.model.Emprunt"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.diginamic.D11.Biblio.repository.JpaLivre"/>
+    <fullyQualifiedTypeName name="com.diginamic.D11.Biblio.repository.JpaEmprunt"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>
