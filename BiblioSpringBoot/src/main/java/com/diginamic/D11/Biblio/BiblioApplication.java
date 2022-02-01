@@ -43,9 +43,21 @@ public class BiblioApplication implements ApplicationRunner
 	public void run(ApplicationArguments args) throws Exception
 	{
 		// -----> Entity Client instanciée
-		Client c1 = new Client();
-		gestionRepClient.delete(c1);
-		gestionRepClient.findAll().forEach(c -> System.out.println(c));
+		// CrÃ©ation
+		Client client = new Client();
+		client.setNom("BON");
+		client.setPrenom("Jean");
+		gestionRepClient.save(client);
+		System.out.println("   Client -> Création : " + gestionRepClient.findById(client.getId()).get());
+		// Modification
+		client.setNom("BONNEAU");
+		gestionRepClient.save(client);
+		System.out.println("   Client -> Modification : " + gestionRepClient.findById(client.getId()).get());
+		// Suppression
+		gestionRepClient.delete(client);
+		System.out.println(
+				" Client -> Suppression : " + (gestionRepClient.findById(client.getId()).isEmpty()? "Client supprimé"
+						: "Client non supprimé : " + gestionRepClient.findById(client.getId()).get()));
 		// Delete un client par son ID
 		/**
 		 * if(!grc.findById(5).isEmpty()) { grc.getListeEmpruntByClient(5).forEach(e ->
@@ -66,7 +78,7 @@ public class BiblioApplication implements ApplicationRunner
 		e1.setDelai(40);
 		e1.setDatedebut(new Date());
 		e1.setDatefin(new Date());
-		e1.setClientE(c1);
+		e1.setClientE(client);
 		gestionRepEmprunt.findAll().forEach(e -> System.out.println(e));
 		/**
 		 * save me permet de créer ou de modifier une entity Client selon la valeur de

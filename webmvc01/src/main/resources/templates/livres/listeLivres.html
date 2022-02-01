@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title th:text = "${ titre }">Titre</title>
+	<link rel = "stylesheet" type = "text/css" th:href = "@{/css/style.css}"/>
+</head>
+
+<body>
+	<h1 th:text = "${Titre}"></h1>
+	<br/>
+	<a th:href = "@{/livre/add}">Ajout</a> - <a th:href = "@{/}">Retour</a>
+	<hr/>
+	
+<table>
+	<thead>
+		<tr>
+			<th>Titre &nbsp;</th>
+			<th>Auteur &nbsp;</th>
+			<th>Supprimer</th>
+			
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr th:each = "livre : ${ livres }">
+		
+			<td th:text = "${ livre.titre }"> </td>
+			<td th:text = "${ livre.auteur }"> </td>
+			<td> <a th:href = "@{/livre/delete/{id}(id=${livre.id})}">Supprimer</a> </td>
+			
+		</tr>
+	</tbody>
+	
+</table>
+
+</body>
+</html>

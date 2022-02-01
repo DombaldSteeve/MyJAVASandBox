@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org/%22%3E">
+<head th:replace="fragments/header :: taghead"></head>
+<body>
+    <h1 th:text="${Titre}">HOME</h1>
+    <a th:href="@{/client/add}">Ajouter un client</a>
+    <br/>
+    <a th:href="@{/client/update}">Modifier un client</a>
+    <br/>
+    <a th:href="@{/client/clients}">Afficher les clients</a>
+    <br/>
+    <br/>
+     <a th:href="@{/livre/add}">Ajouter un livre</a>
+    <br/>
+    <a th:href="@{/livre/livres}">Afficher les livres</a>
+    <br/>
+    <br/>
+     <a th:href="@{/emprunt/add}">Ajouter un emprunt</a>
+    <br/>
+    <a th:href="@{/emprunt/emprunts}">Afficher les emprunts</a>
+</body>
+</html>
+

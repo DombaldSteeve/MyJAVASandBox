@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="fragments/header :: taghead"></head>
+
+<body>
+	<h1 th:text = "${Titre}"></h1>
+	
+	<form th:action="@{/emprunt/add}"  th:object = "${empruntForm}" method="post">
+		Date de début:
+		<input type = "text" th:field= "*{datedebut}" />
+		<br />
+		<br />
+		Date de fin:
+		<input type = "text" th:field ="*{datefin}" />
+		<br/>
+		<br/>
+		Delai:
+		<input type = "text" th:field ="*{delai}" />
+		<br/>
+		<br/>
+		 Selectionner un client:
+		<select th:field="*{clientE}"> 
+		<option th:each="client : ${listeClients}" th:text=${client.nom} th:value="${client.id}"/>
+        </select>
+        <br/>
+        <br/>
+        Choisir un ou plusieurs livres :
+        <select th:field="*{livresE}" multiple> 
+        <option th:each="livre : ${listeLivres}" th:text=${livre.titre} th:value="${livre.id}"/>
+        </select>    
+        <br/>
+        <br/>
+        <input type="submit" value="Create" />
+		</form>
+		<br/>
+		<br/>
+		<a th:href = "@{/}">Retour</a>
+		
+</body>
+</html>

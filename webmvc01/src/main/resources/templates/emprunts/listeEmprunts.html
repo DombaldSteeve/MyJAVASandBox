@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title th:text = "${ titre }">Titre</title>
+	<link rel = "stylesheet" type = "text/css" th:href = "@{/css/style.css}"/>
+</head>
+
+<body>
+	<h1 th:text = "${Titre}"></h1>
+	<br/>
+	<a th:href = "@{/emprunt/add}">Ajout</a>&nbsp;&nbsp; -&nbsp;&nbsp; <a th:href = "@{/}">Retour</a>
+	<hr/>
+	
+<table>
+	<thead>
+		<tr>
+			<th>ID &nbsp;&nbsp;</th>
+			<th>Date de début d'emprunt &nbsp;&nbsp;</th>
+			<th>Date de fin d'emprunt &nbsp;&nbsp;</th>
+			<th>Délai &nbsp;&nbsp;</th>	
+			<th>Client &nbsp;&nbsp;</th>	
+			<th>Livres empruntés &nbsp;&nbsp;</th>
+			<th>Supprimer</th>	
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr th:each = "emprunt : ${ emprunts }">
+		
+			<td th:text = "${ emprunt.id }"> </td>
+			<td th:text = "${ emprunt.datedebut }"> </td>
+			<td th:text = "${ emprunt.datefin }"> </td>
+			<td th:text = "${ emprunt.delai }"> </td>
+			<td th:text = "${ emprunt.clientE }"> </td>
+			<!-- <td th:text = "${ emprunt.livresE }"> </td> --> 
+			<td>
+				<ul>
+					<li th:each="livre : ${ er.findByLivre(emprunt)}" th:text="${livre.titre}"></li>	
+				</ul>
+			</td>
+			<td> <a th:href = "@{/emprunt/delete/{id}(id=${emprunt.id})}">Supprimer</a> </td>
+			
+		</tr>
+	</tbody>
+	
+</table>
+
+</body>

@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="fragments/header :: taghead"></head>
+
+<body>
+	<h1 th:text = "${Titre}"></h1>
+	
+	<form th:action="@{/livre/add}"  th:object = "${livreForm}" method="post">
+		Titre:
+		<input type = "text" th:field= "*{titre}" />
+		<br />
+		<br />
+		Auteur:
+		<input type = "text" th:field ="*{auteur}" />
+		<br/>
+		<br/>
+		<input type = "submit" value = "Create" />
+		</form>
+		<br/>
+		<br/>
+		<a th:href = "@{/}">Retour</a>
+		
+</body>
+</html>

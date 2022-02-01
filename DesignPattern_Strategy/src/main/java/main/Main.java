@@ -1,6 +1,7 @@
 package main;
 
 import entites.Calculer;
+import entites.CalculerBenef;
 import entites.CalculerCout;
 import entites.CalculerPrix;
 import entites.ClassB;
@@ -20,6 +21,7 @@ public class Main
 		System.out.println(calcul.Calcul());
 		Calculer calcul2 = new Calculer(new CalculerCout());
 		System.out.println(calcul2.Calcul());
-		Calculer calculerRevient = ((calcul) - (calcul2));
+		Calculer benef = new Calculer(new CalculerBenef());
+		System.out.println(benef.Calcul());
 	}
 }
