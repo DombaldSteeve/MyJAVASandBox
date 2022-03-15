@@ -17,9 +17,10 @@
 <table>
 	<thead>
 		<tr>
-			<th>Titre &nbsp;</th>
-			<th>Auteur &nbsp;</th>
-			<th>Supprimer</th>
+			<th>ID &nbsp;&nbsp;</th>
+			<th th:text = "#{livre.titre}">Titre &nbsp;&nbsp;</th>
+			<th th:text = "#{livre.auteur}">Auteur &nbsp;&nbsp;</th>
+			<th th:text = "#{livre.supprimer}">Supprimer</th>
 			
 		</tr>
 	</thead>
@@ -27,9 +28,10 @@
 	<tbody>
 		<tr th:each = "livre : ${ livres }">
 		
+			<td th:text = "${ livre.id }"> </td>
 			<td th:text = "${ livre.titre }"> </td>
 			<td th:text = "${ livre.auteur }"> </td>
-			<td> <a th:href = "@{/livre/delete/{id}(id=${livre.id})}">Supprimer</a> </td>
+			<td> <a th:href = "@{/livre/delete/{id}(id=${livre.id})}" th:text = "#{livre.supprimer}">Supprimer</a> </td>
 			
 		</tr>
 	</tbody>

@@ -3,22 +3,24 @@
     xmlns:th="http://www.thymeleaf.org/%22%3E">
 <head th:replace="fragments/header :: taghead"></head>
 <body>
-    <h1 th:text="${Titre}">HOME</h1>
-    <a th:href="@{/client/add}">Ajouter un client</a>
+    <h1 th:text="#{dtitre.home}">HOME</h1>
+    <a th:href="@{/client/add}" th:text="#{titre.client.add}">Ajouter un client</a>
     <br/>
-    <a th:href="@{/client/update}">Modifier un client</a>
+    <a th:href="@{/client/update}" th:text="#{titre.client.update}">Modifier un client</a>
     <br/>
-    <a th:href="@{/client/clients}">Afficher les clients</a>
-    <br/>
-    <br/>
-     <a th:href="@{/livre/add}">Ajouter un livre</a>
-    <br/>
-    <a th:href="@{/livre/livres}">Afficher les livres</a>
+    <a th:href="@{/client/clients}" th:text="#{titre.client.liste}">Afficher les clients</a>
     <br/>
     <br/>
-     <a th:href="@{/emprunt/add}">Ajouter un emprunt</a>
+     <a th:href="@{/livre/add}" th:text="#{titre.livre.add}">Ajouter un livre</a>
     <br/>
-    <a th:href="@{/emprunt/emprunts}">Afficher les emprunts</a>
+    <a th:href="@{/livre/update}" th:text="#{titre.livre.update}">Modifier un livre</a>
+    <br/>
+    <a th:href="@{/livre/livres}" th:text="#{titre.livre.liste}">Afficher les livres</a>
+    <br/>
+    <br/>
+     <a th:href="@{/emprunt/add}" th:text="#{titre.emprunt.add}">Ajouter un emprunt</a>
+    <br/>
+    <a th:href="@{/emprunt/emprunts}" th:text="#{titre.emprunt.update}">Afficher et Modifier les emprunts</a>
 </body>
 </html>
 

@@ -36,6 +36,20 @@ public class EmpruntsController
 	{
 	}
 
+	private Optional<Emprunt> verifEmprunt(Integer idEmprunt) throws Exception
+	{
+		Optional<Emprunt> emp = er.findById(idEmprunt);
+		if(emp.isEmpty())
+		{
+			/**
+			 * Je déclenche l'exception ClientError package fr.diginamic.Rest01.exceptions;
+			 * Exception Fonctionnelle = métier
+			 */
+			throw (new Exception("Client id :" + idEmprunt + " non trouvé !"));
+		}
+		return emp;
+	}
+
 	@GetMapping("/emprunts")
 	public String findall(Model model)
 	{
@@ -72,6 +86,47 @@ public class EmpruntsController
 		return "redirect:/emprunt/emprunts";
 	}
 
+	@GetMapping("/update/{id}")
+	public String updateT(@PathVariable("id")
+	Integer pid, Model model) throws Exception
+	{
+		Emprunt emp = verifEmprunt(pid).get();
+		List<Client> listesClients = (List<Client>) cr.findAll();
+		List<Livre> listeLivres = (List<Livre>) lr.findAll();
+		model.addAttribute("empruntUpdateForm", new Emprunt());
+		model.addAttribute("Titre", "Modifier un emprunt");
+		model.addAttribute("titre", "Gestion Bibliothèque");
+		model.addAttribute("listeClients", listesClients);
+		model.addAttribute("listeLivres", listeLivres);
+		model.addAttribute("emprunt", emp);
+		return "emprunts/updateEmprunts";
+	}
+
+	@PostMapping("/update/{id}")
+	public String update(@PathVariable("id")
+	Integer pid, @Valid @ModelAttribute("empruntUpdateForm")
+	Emprunt empruntUpdateForm) throws Exception
+	{
+		Emprunt emp = verifEmprunt(pid).get();
+		er.findLivreByEmprunt(emp).forEach(l ->
+		{
+			l.getEmpruntLivres().remove(emp);
+			lr.save(l);
+		});
+		emp.setDatedebut(empruntUpdateForm.getDatedebut());
+		emp.setDatefin(empruntUpdateForm.getDatefin());
+		emp.setDelai(empruntUpdateForm.getDelai());
+		emp.setClientE(empruntUpdateForm.getClientE());
+		emp.setLivresE(empruntUpdateForm.getLivresE());
+		er.save(emp);
+		empruntUpdateForm.getLivresE().forEach(l ->
+		{
+			l.getEmpruntLivres().add(emp);
+			lr.save(l);
+		});
+		return "redirect:/emprunt/emprunts";
+	}
+
 	@GetMapping("/delete/{id}")
 	public String delete(@PathVariable("id")
 	Integer pid) throws Exception
@@ -85,7 +140,7 @@ public class EmpruntsController
 			 */
 			throw (new Exception("Emprunt id :" + pid + " non trouvé !"));
 		}
-		er.findByLivre(e.get()).forEach(l ->
+		er.findLivreByEmprunt(e.get()).forEach(l ->
 		{
 			l.getEmpruntLivres().remove(e.get());
 			lr.save(l);

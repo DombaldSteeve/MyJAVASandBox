@@ -6,28 +6,30 @@
 <head th:replace="fragments/header :: taghead"></head>
 
 <body>
-	<h1 th:text = "${Titre}"></h1>
+	<h1 th:text = "#{titre.emprunt.add}"></h1>
+	<a th:href = "@{/}" th:text = "#{ bouton.retour }">Retour</a>
+	<hr/>
 	
 	<form th:action="@{/emprunt/add}"  th:object = "${empruntForm}" method="post">
-		Date de début:
+		<th th:text = "#{ emprunt.datedebut }">Date de début d'emprunt &nbsp;&nbsp;</th>
 		<input type = "text" th:field= "*{datedebut}" />
 		<br />
 		<br />
-		Date de fin:
+		<th th:text = "#{ emprunt.datefin }">Date de fin d'emprunt &nbsp;&nbsp;</th>
 		<input type = "text" th:field ="*{datefin}" />
 		<br/>
 		<br/>
-		Delai:
+		<th th:text = "#{ emprunt.delai }">Délai &nbsp;&nbsp;</th>	
 		<input type = "text" th:field ="*{delai}" />
 		<br/>
 		<br/>
-		 Selectionner un client:
+		<th th:text = "#{ emprunt.select.client }">&nbsp;&nbsp;</th>	
 		<select th:field="*{clientE}"> 
 		<option th:each="client : ${listeClients}" th:text=${client.nom} th:value="${client.id}"/>
         </select>
         <br/>
         <br/>
-        Choisir un ou plusieurs livres :
+        <th th:text = "#{ emprunt.choisir.livres }">&nbsp;&nbsp;</th>
         <select th:field="*{livresE}" multiple> 
         <option th:each="livre : ${listeLivres}" th:text=${livre.titre} th:value="${livre.id}"/>
         </select>    
@@ -37,7 +39,7 @@
 		</form>
 		<br/>
 		<br/>
-		<a th:href = "@{/}">Retour</a>
+		
 		
 </body>
 </html>

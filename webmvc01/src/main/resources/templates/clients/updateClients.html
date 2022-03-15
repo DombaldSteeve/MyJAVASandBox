@@ -9,16 +9,17 @@
 </head>
 
 <body>
-	<h1 th:text = "${Titre}"></h1>
-	<a th:href = "@{/}">Retour </a>
+	<h1 th:text = "#{ titre.client.update }"></h1>
+	<a th:href = "@{/}" th:text = "#{ bouton.retour }">Retour </a>
 	<hr/>
+	<br/>
 	
 	<table>
 	<thead>
 		<tr>
 			<th>ID &nbsp;&nbsp;</th>
-			<th>Nom &nbsp;&nbsp;</th>
-			<th>Prénom &nbsp;&nbsp;</th>
+			<th th:text = "#{ client.nom }">Nom &nbsp;&nbsp;</th>
+			<th th:text = "#{ client.prenom }">Prénom &nbsp;&nbsp;</th>
 		</tr>
 	</thead>
 	
@@ -32,31 +33,37 @@
 		</tr>
 	</tbody>
 	
-</table>
 	
-	
-	
-	
+		</table>
+		<hr/>
+
 	<form th:action="@{/client/update}"  th:object = "${clientUpdateForm}" method="post">
 	<br/>
-	Selectionner l'ID du client à modifier:
-	<select th:field="*{clientE}"> 
-		<option th:each="client : ${listeClients}" th:text=${client.id} th:value="${client.id}"/>
+	
+	<p th:text = "#{ client.selection.id }">Sélectionner l'ID du client à modifier:</p>
+	
+	<select th:field="*{id}"> 
+		<option th:each="client : ${ clients }" th:text=${client.id} th:value="${client.id}"/>
     </select>
+    
     <br />
 	<br />
-	Nom:
+	<p th:text = "#{ client.nom }">Nom:</p>
 		<input type = "text" th:field ="*{nom}" />
 	<br/>
 	<br/>
-	Prenom:
+	<p th:text = "#{ client.prenom }">Prenom:</p>
 		<input type = "text" th:field ="*{prenom}" />
     <br/>
     <br/>
     <input type="submit" value="Modifier" />
 	</form>
+	<br/>
+    <br/>
+    <br/>
+    <br/>
 	
-	
+
 	
 	
 	

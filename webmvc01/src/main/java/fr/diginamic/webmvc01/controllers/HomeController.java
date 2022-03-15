@@ -16,7 +16,7 @@ public class HomeController
 	@GetMapping
 	public String home(Model model)
 	{
-		String dtitre = "Bonjour et bienvenue dans le gestionnaire bibliothèque !";
+		String dtitre = "Bonjour Toi ;) et bienvenue dans le gestionnaire bibliothèque !";
 		model.addAttribute("Titre", dtitre);
 		model.addAttribute("titre", "Gestion Bibliothèque");
 		return "home";

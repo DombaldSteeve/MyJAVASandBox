@@ -6,22 +6,24 @@
 <head th:replace="fragments/header :: taghead"></head>
 
 <body>
-	<h1 th:text = "${Titre}"></h1>
+	<h1 th:text = "#{ titre.client.add }"></h1>
+	<a th:href = "@{/}" th:text = "#{ bouton.retour }">Retour</a>
+		
+	<hr/>
 	
 	<form th:action="@{/livre/add}"  th:object = "${livreForm}" method="post">
-		Titre:
+		<p th:text = "#{ livre.titre }">Titre:</p>
 		<input type = "text" th:field= "*{titre}" />
 		<br />
 		<br />
-		Auteur:
+		<p th:text = "#{ livre.auteur }"></p>
 		<input type = "text" th:field ="*{auteur}" />
 		<br/>
 		<br/>
-		<input type = "submit" value = "Create" />
+		<input type = "submit" value = "Ajouter" />
 		</form>
 		<br/>
 		<br/>
-		<a th:href = "@{/}">Retour</a>
 		
 </body>
 </html>

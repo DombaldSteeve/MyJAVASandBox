@@ -11,19 +11,21 @@
 <body>
 	<h1 th:text = "${Titre}"></h1>
 	<br/>
-	<a th:href = "@{/emprunt/add}">Ajout</a>&nbsp;&nbsp; -&nbsp;&nbsp; <a th:href = "@{/}">Retour</a>
+	<a th:href = "@{/emprunt/add}" th:text = "#{ bouton.ajouter }">Ajout</a>
+	&nbsp;&nbsp; -&nbsp;&nbsp; <a th:href = "@{/}" th:text = "#{ bouton.retour }">Retour</a>
 	<hr/>
 	
 <table>
 	<thead>
 		<tr>
 			<th>ID &nbsp;&nbsp;</th>
-			<th>Date de début d'emprunt &nbsp;&nbsp;</th>
-			<th>Date de fin d'emprunt &nbsp;&nbsp;</th>
-			<th>Délai &nbsp;&nbsp;</th>	
-			<th>Client &nbsp;&nbsp;</th>	
-			<th>Livres empruntés &nbsp;&nbsp;</th>
-			<th>Supprimer</th>	
+			<th th:text = "#{ emprunt.datedebut }">Date de début d'emprunt &nbsp;&nbsp;</th>
+			<th th:text = "#{ emprunt.datefin }">Date de fin d'emprunt &nbsp;&nbsp;</th>
+			<th th:text = "#{ emprunt.delai }">Délai &nbsp;&nbsp;</th>	
+			<th th:text = "#{ emprunt.client }">Client &nbsp;&nbsp;</th>	
+			<th th:text = "#{ emprunt.livres.empruntes }">Livres empruntés &nbsp;&nbsp;</th>
+			<th th:text = "#{ emprunt.supprimer }">Supprimer &nbsp;&nbsp;</th>	
+			<th th:text = "#{ emprunt.modifier }">Modifier &nbsp;&nbsp;</th>
 		</tr>
 	</thead>
 	
@@ -38,14 +40,18 @@
 			<!-- <td th:text = "${ emprunt.livresE }"> </td> --> 
 			<td>
 				<ul>
-					<li th:each="livre : ${ er.findByLivre(emprunt)}" th:text="${livre.titre}"></li>	
+					<li th:each="livre : ${ er.findLivreByEmprunt(emprunt)}" th:text="${livre.titre}"></li>	
 				</ul>
 			</td>
 			<td> <a th:href = "@{/emprunt/delete/{id}(id=${emprunt.id})}">Supprimer</a> </td>
+			<td> <a th:href = "@{/emprunt/update/{id} (id=${emprunt.id})}">Modifier</a> </td>
 			
 		</tr>
 	</tbody>
 	
 </table>
+<br/>
+<br/>
+<br/>
 
 </body>

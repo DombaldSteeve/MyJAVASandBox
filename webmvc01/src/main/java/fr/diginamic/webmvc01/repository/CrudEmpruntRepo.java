@@ -15,5 +15,5 @@ public interface CrudEmpruntRepo extends CrudRepository<Emprunt, Integer>
 	 * @return
 	 */
 	@Query("select l from Livre l where :emp MEMBER OF l.empruntLivres")
-	public Iterable<Livre> findByLivre(Emprunt emp);
+	public Iterable<Livre> findLivreByEmprunt(Emprunt emp);
 }

@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title th:text = "${ titre }">Titre</title>
+	<link rel = "stylesheet" type = "text/css" th:href = "@{/css/style.css}"/>
+</head>
+
+<body>
+	<h1 th:text = "#{ titre.emprunt.modif }" ></h1>
+	<a th:href = "@{/emprunt/emprunts}" th:text = "#{ bouton.retour }">Retour</a>
+	&nbsp;&nbsp; -&nbsp;&nbsp;
+	<a th:href = "@{/}" th:text = "#{ bouton.accueil }">Accueil </a>
+	<hr/>
+	
+	
+	<form th:action="'/emprunt/update/' + ${emprunt.id}" 
+	th:object = "${empruntUpdateForm}" method="post">
+	<table>
+	<thead>
+		<tr>
+			
+			<th th:text = "#{ emprunt.datedebut }">Date de début d'emprunt &nbsp;&nbsp;</th>
+			<th th:text = "#{ emprunt.datefin }">Date de fin d'emprunt &nbsp;&nbsp;</th>
+			<th th:text = "#{ emprunt.delai }">Délai &nbsp;&nbsp;</th>	
+			<th th:text = "#{ emprunt.client }">Client &nbsp;&nbsp;</th>	
+			<th th:text = "#{ emprunt.livres.empruntes }">Livres empruntés &nbsp;&nbsp;</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr>
+		
+			<td><input type = "text" th:field = "${emprunt.datedebut}" name = "datedebut"/></td>
+			<td><input type = "text" th:field = "${emprunt.datefin}" name = "datefin"/></td>
+			<td><input type = "number" th:field = "${emprunt.delai}" name = "delai"/></td>
+			
+			
+			<td>
+				<select name ="clientE">
+			        <option th:each="client : ${listeClients}" th:value="${client.id}"
+	                       th:text="${client.nom}+ ' ' + ${client.prenom}"
+	                       th:selected="${emprunt.clientE.id} == ${client.id} ? true : false">
+	                </option>
+                </select>
+		    </td>
+			<td>
+				<select name="livresE" multiple>
+			        <option th:each="livre : ${listeLivres}" th:value="${livre.id}"
+                        th:text="${livre.titre}+ ' ' + ${livre.auteur}" >
+                    </option>
+			        
+			    </select>
+		    </td>
+		    <td> <input type = "submit"  value = "Valider"></input> </td>
+			
+		</tr>
+	</tbody>
+	
+</table>
+</form>
+		<hr/>
+		
+</body>
+</html>

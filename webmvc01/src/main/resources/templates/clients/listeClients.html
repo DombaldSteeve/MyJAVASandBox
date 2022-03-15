@@ -9,26 +9,28 @@
 </head>
 
 <body>
-	<h1 th:text = "${Titre}"></h1>
+	<h1 th:text = "#{ titre.client.liste }"></h1>
 	<br/>
-	<a th:href = "@{/client/add}">Ajout</a> &nbsp;&nbsp; - &nbsp;&nbsp; <a th:href = "@{/}">Retour </a>
+	<a th:href = "@{/client/add}" th:text = "#{ bouton.ajouter }">Ajout</a> &nbsp;&nbsp; - &nbsp;&nbsp; <a th:href = "@{/}" th:text = "#{ bouton.retour }">Retour </a>
 	<hr/>
 	
 <table>
 	<thead>
 		<tr>
-			<th>Nom &nbsp;&nbsp;</th>
-			<th>Prénom &nbsp;&nbsp;</th>
-			<th>Supprimer &nbsp;&nbsp;</th>
+				<th>ID &nbsp;&nbsp;</th>
+			<th th:text = "#{ client.nom }">Nom &nbsp;&nbsp;</th>
+			<th th:text = "#{ client.prenom }">Prénom &nbsp;&nbsp;</th>
+			<th th:text = "#{ client.supprimer }">Supprimer &nbsp;&nbsp;</th>
 		</tr>
 	</thead>
 	
 	<tbody>
 		<tr th:each = "client : ${ clients }">
 		
+			<td th:text = "${ client.id }"> </td>
 			<td th:text = "${ client.nom }">  </td>
 			<td th:text = "${ client.prenom }"> </td>
-			<td> <a th:href = "@{/client/delete/{id}(id=${client.id})}">Supprimer</a> </td>
+			<td> <a th:href = "@{/client/delete/{id}(id=${client.id})}" th:text = "#{ client.supprimer }">Supprimer</a> </td>
 			
 			
 		</tr>

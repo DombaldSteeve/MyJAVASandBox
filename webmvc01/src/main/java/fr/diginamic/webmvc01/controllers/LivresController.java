@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import fr.diginamic.webmvc01.entities.Livre;
+import fr.diginamic.webmvc01.exceptions.ErreurClient;
 import fr.diginamic.webmvc01.repository.CrudLivreRepo;
 
 @Controller
@@ -51,6 +52,25 @@ public class LivresController
 	Livre livreForm)
 	{
 		lr.save(livreForm);
+		return "redirect:/livre/livres";
+	}
+
+	@GetMapping("/update")
+	public String updateT(Model model)
+	{
+		List<Livre> listesLivres = (List<Livre>) lr.findAll();
+		model.addAttribute("livreUpdateForm", new Livre());
+		model.addAttribute("Titre", "Modifier un livre");
+		model.addAttribute("titre", "Gestion Bibliothèque");
+		model.addAttribute("livres", listesLivres);
+		return "livres/updateLivres";
+	}
+
+	@PostMapping("/update")
+	public String update(@Valid @ModelAttribute("livreUpdateForm")
+	Livre livre) throws ErreurClient
+	{
+		lr.save(livre);
 		return "redirect:/livre/livres";
 	}
 

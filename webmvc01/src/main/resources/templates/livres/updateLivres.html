@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title th:text = "${ titre }">Titre</title>
+	<link rel = "stylesheet" type = "text/css" th:href = "@{/css/style.css}"/>
+</head>
+
+<body>
+	<h1 th:text = "#{titre.livre.update}"></h1>
+	<a th:href = "@{/}" th:text = "#{bouton.retour}">Retour </a>
+	<hr/>
+	
+	<table>
+	<thead>
+		<tr>
+			<th>ID &nbsp;&nbsp;</th>
+			<th th:text = "#{livre.titre}">Titre &nbsp;&nbsp;</th>
+			<th th:text = "#{livre.auteur}">Auteur &nbsp;&nbsp;</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr th:each = "livre : ${ livres }">
+		
+			<td th:text = "${ livre.id }"> </td>
+			<td th:text = "${ livre.titre }">  </td>
+			<td th:text = "${ livre.auteur }"> </td>
+			
+		</tr>
+	</tbody>
+	
+	
+		</table>
+		<hr/>
+
+	<form th:action="@{/livre/update}"  th:object = "${livreUpdateForm}" method="post">
+	<br/>
+	
+	<p th:text = "#{livre.selection.id}">Selectionner l'ID du livre à modifier:</p>
+	
+	<select th:field="*{id}"> 
+		<option th:each="livre : ${ livres }" th:text=${livre.id} th:value="${livre.id}"/>
+    </select>
+    
+    <br />
+	<br />
+	<p th:text = "#{livre.titre}">Titre:</p>
+		<input type = "text" th:field ="*{titre}" />
+	<br/>
+	<br/>
+	<p th:text = "#{livre.auteur}">Auteur:</p>
+		<input type = "text" th:field ="*{auteur}" />
+    <br/>
+    <br/>
+    <input type="submit" value="Modifier" />
+	</form>
+	<br/>
+    <br/>
+    <br/>
+    <br/>
+	
+
+	
+	
+	
+	
+	
+	<!-- 
+	
+	-->
+		
+</body>
+</html>

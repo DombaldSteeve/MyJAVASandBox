@@ -8,7 +8,6 @@ import javax.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -76,32 +75,20 @@ public class ClientsController
 		return "redirect:/client/clients";
 	}
 
-	@GetMapping("/update/{id}")
-	public String updateT(@PathVariable("id")
-	Integer pid, Model model)
+	@GetMapping("/update")
+	public String updateT(Model model)
 	{
-		Client client = cr.findById(pid).get();
-		model.addAttribute("clientUpdateForm", client);
+		List<Client> listesClients = (List<Client>) cr.findAll();
+		model.addAttribute("clientUpdateForm", new Client());
 		model.addAttribute("Titre", "Modifier un client");
 		model.addAttribute("titre", "Gestion Bibliothèque");
+		model.addAttribute("clients", listesClients);
 		return "clients/updateClients";
 	}
 
-//	@PostMapping("/update")
-//	public Client update(Client client, @Valid @ModelAttribute("clientUpdatetForm")
-//	Client clientUpdateForm) throws Exception
-//	{
-//		verifClient(client.getId());
-//		if(client.getId() != client.getId())
-//		{
-//			throw new ErreurClient("N° de client : " + client.getId()
-//					+ "passé en variable est différent du contenu JSON : " + client.getId());
-//		}
-//		return cr.save(client);
-//	}
 	@PostMapping("/update")
 	public String update(@Valid @ModelAttribute("clientUpdateForm")
-	Client client, BindingResult result) throws ErreurClient
+	Client client) throws ErreurClient
 	{
 		cr.save(client);
 		return "redirect:/client/clients";
